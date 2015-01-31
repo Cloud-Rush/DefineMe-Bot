@@ -1,8 +1,7 @@
 import os
 import sys
 
-from api import (LearnersDictionary, CollegiateDictionary,
-                                 WordNotFoundException)
+from api import (CollegiateDictionary, WordNotFoundException)
 def lookup(dictionary_class, key, query):
     dictionary = dictionary_class(key)
     string = ""
