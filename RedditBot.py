@@ -9,7 +9,7 @@ import os
 import sys
 import re
 import time
-from define import lookup
+from lookup import lookup
 from api import(CollegiateDictionary, WordNotFoundException)
 
 API_KEY = open("API_Key.txt", 'r').read().rstrip()
